@@ -2,7 +2,7 @@
 
 # Пример
 from marshmallow import Schema, fields
-from app.setup_db import db
+from setup_db import db
 
 class Director(db.Model):
     __tablename__ = 'director'

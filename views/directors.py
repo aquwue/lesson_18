@@ -1,7 +1,7 @@
 from flask_restx import Resource, Namespace
 
-from app.models import Director, DirectorSchema
-from app.setup_db import db
+from models import Director, DirectorSchema
+from setup_db import db
 
 
 directors_ns = Namespace('directors')

@@ -1,7 +1,7 @@
 from flask_restx import Resource, Namespace
 
-from app.models import Genre, GenreSchema
-from app.setup_db import db
+from models import Genre, GenreSchema
+from setup_db import db
 
 
 ganres_ns = Namespace('genres')
